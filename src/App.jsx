@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 
-// imports
+//! imports
 
 import Home from "./pages/HomePage/home.jsx";
 import About from "./pages/AboutPage/about.jsx";

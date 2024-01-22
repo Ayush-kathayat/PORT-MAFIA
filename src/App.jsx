@@ -1,14 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 
-import './App.css'
+import Home from "./pages/HomePage/home.jsx";
 
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-    <h1>PORTMAFIA</h1>
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,18 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .navbar__logo{
+  color :red;
+} */
+
+.links{
+  display: flex;
+  align-items: center;
+}
+
+.links__item {
+  display: flex;
+  align-items: center;
+}

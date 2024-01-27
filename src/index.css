@@ -3,14 +3,12 @@
 
 /* CSS Reset */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
-
 
 /* Root CSS Variables */
 
@@ -50,12 +48,11 @@
 
   /* FONTS */
 
-  --primary-font: 'Roboto', sans-serif; /* --primary-font represents the main font used throughout the project. This could be used for headers, subheaders, and primary body text. */
+  --primary-font: "Roboto", sans-serif; /* --primary-font represents the main font used throughout the project. This could be used for headers, subheaders, and primary body text. */
   --secondary-font: "Lato", sans-serif; /*--secondary-font could represent a secondary font used for less important text or for emphasizing certain sections of the content.*/
   --form-font: "Open Sans", sans-serif; /*--form-font is intended for form fields and buttons.*/
   --cta-font: "Poppins", sans-serif; /* --cta-font stands for Call To Action font, typically used for buttons that lead to important actions.*/
   --subtitle-font: "Playfair Display", serif; /*--subtitle-font is used for subtitles and secondary headings.*/
-
 
   --font-size-em: 1.2em;
   --font-size-mammoth: 2.488rem;
@@ -76,11 +73,7 @@
   --font-weight-thin: 200;
 }
 
-
-
-
 /* smooth scroll css */
-
 
 html.lenis {
   height: auto;
@@ -111,4 +104,5 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  overflow: auto;
 }

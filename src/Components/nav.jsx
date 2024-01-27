@@ -9,25 +9,49 @@ const Nav = () => {
         <h1 className="navbar__logo">Ayush Kathayat</h1>
 
         <ul className="links">
-          <li className="links__item">
-            <img src="/home.svg" alt="Home" />
-            <Link to="/">Home</Link>
+
+          
+          <li className="links__item-wrapper">
+            {/* <img src="/home.svg" alt="Home" /> */}
+            <div className="main-link">
+            <Link className="links__item" to="/">
+              Home
+            </Link>
+            <span className="l2">Home</span>
+            </div>
+
           </li>
-          <li className="links__item">
-            <img src="/user.svg" alt="About" />
-            <Link to="/about">About</Link>
+          <li className="links__item-wrapper">
+            {/* <img src="/user.svg" alt="About" /> */}
+
+            <div className="main-link">
+            <Link className="links__item" to="/about">
+              About
+            </Link>
+            <span className="l2">About</span>
+            </div>
           </li>
-          <li className="links__item">
-            <img src="/code.svg" alt="Project" />
-            <Link to="/projects">Projects</Link>
+          <li className="links__item-wrapper">
+            {/* <img src="/code.svg" alt="Project" /> */}
+            <div className="main-link">
+            <Link className="links__item" to="/projects">
+              Projects
+            </Link>
+            <span className="l2">Projects</span>
+            </div>
           </li>
-          <li className="links__item">
-            <img src="/file-text.svg" alt="Resume" />
-            <Link to="/resume">Resume</Link>
+          <li className="links__item-wrapper">
+            {/* <img src="/file-text.svg" alt="Resume" /> */}
+            <div className="main-link">
+            <Link className="links__item" to="/resume">
+              Resume
+            </Link>
+            <span className="l2">Resume</span>
+            </div>
           </li>
-          <li className="links__item">
+          {/* <li className="links__item">
             <img src="/github.svg" alt="git-link" />
-          </li>
+          </li> */}
         </ul>
 
         <div className="mode">

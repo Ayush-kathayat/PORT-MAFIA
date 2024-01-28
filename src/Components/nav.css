@@ -1,12 +1,17 @@
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  /* background-color: blue; */
+  padding: 1.3rem;
 }
 
 .links {
   display: flex;
+  width: 50%;
   justify-content: space-evenly;
-  width: 20%;
+  flex-wrap: wrap;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
 }
 
 .main-link {
@@ -17,21 +22,36 @@
 
 .l2 {
   display: inline-block;
-  transform: translateY(15px);
+  transform: translateY(25px);
   transition: transform 0.25s ease-in-out;
-  color: red;
+  color: var(--accent);
+  text-decoration: none;
 }
 
 .links__item {
   transition: transform 0.25s ease-in-out;
   transform: translateY(12px);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .main-link:hover > .links__item {
-  transform: translateY(-14px);
+  transform: translateY(-39px);
 }
 
 .main-link:hover > .l2 {
   transform: translateY(-6px);
+}
+
+
+.git-icon{
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.feather-github:hover{
+  fill :  var(--accent);
+  color : var(--accent);
+  transition: fill 0.25s ease-in-out;
 }

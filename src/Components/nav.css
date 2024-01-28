@@ -89,9 +89,15 @@
 
   .links{
     display: none;
+    /* position: absolute;
+    bottom: 5rem; */
+    transition : 0.5s ease-in-out;
+    opacity: 0;
   }
 
-  
+  .links:hover{
+    opacity : 1;
+  }
 
   .active > .mobile-navbar-btn > .close-menu {
     display: block;

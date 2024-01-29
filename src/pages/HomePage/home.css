@@ -20,3 +20,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.hero-left h1{
+  font-size: var(--font-size-mammoth);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 1rem;
+  margin-right : 12rem;
+}
+
+.hero-left p{
+  font-size: var(--font-size-xmammoth);
+  font-weight: var(--font-weight-thin);
+}
+
+.name{
+  font-weight: var(--font-weight-bolder);
+  color : var(--accent);
+}

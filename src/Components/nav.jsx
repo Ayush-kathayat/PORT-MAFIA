@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <>
       <nav className={showMobMenu ? "active navbar" : "navbar"}>
-        <h1 className="navbar__logo">Ayush Kathayat .</h1>
+        <h1 className="navbar__logo">AK.</h1>
 
         <ul className="links">
           <li className="links__item-wrapper">

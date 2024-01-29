@@ -9,12 +9,13 @@
 
 .links {
   display: flex;
-  width: 50%;
+  width: 35%;
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-bold);
   transition : 0.5s ease-in-out;
+  margin-left : 15rem;
 }
 
 .main-link {
@@ -92,12 +93,12 @@
     /* position: absolute;
     bottom: 5rem; */
     transition : 0.5s ease-in-out;
-    opacity: 0;
+    /* opacity: 0; */
   }
 
-  .links:hover{
+  /* .links:hover{
     opacity : 1;
-  }
+  } */
 
   .active > .mobile-navbar-btn > .close-menu {
     display: block;
@@ -110,7 +111,7 @@
   .active {
     height: 100vh;
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     transition: 0.5s ease-in-out;
 
   }
@@ -140,6 +141,8 @@
     height: 100%;
     margin-top: 1rem;
     transition: 0.5s ease-in-out; 
+    margin-right: 20rem;
+    padding: 5rem;
   }
   
 }

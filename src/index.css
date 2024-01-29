@@ -42,7 +42,7 @@
   --background: #171617;
   --primary: #444241;
   --secondary: #262527;
-  --accent: #ffc200;
+  --accent: #FFED00;
   background-color: var(--background);
   color: var(--text);
 
@@ -55,6 +55,9 @@
   --subtitle-font: "Playfair Display", serif; /*--subtitle-font is used for subtitles and secondary headings.*/
 
   --font-size-em: 1.2em;
+  --font-size-xdinormous: 5.854rem;
+  --font-size-dinormous: 4.854rem;
+  --font-size-xmammoth: 3.052rem;
   --font-size-mammoth: 2.488rem;
   --font-size-xhuge: 2.074rem;
   --font-size-huge: 1.728rem;
@@ -66,6 +69,7 @@
   --font-size-tiny: 0.579rem;
 
   /* weights */
+  --font-weight-bolder: 900;
   --font-weight-bold: 600;
   --font-weight-semibold: 500;
   --font-weight-normal: 400;

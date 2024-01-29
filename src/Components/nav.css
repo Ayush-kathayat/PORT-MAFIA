@@ -3,7 +3,7 @@
   justify-content: space-around;
   /* background-color: blue; */
   padding: 1.3rem;
-  background-color: var(--primary);
+  /* background-color: var(--secondary); */
   transition: 0.5s ease-in-out;
 }
 

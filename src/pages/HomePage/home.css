@@ -1,0 +1,22 @@
+.hero{
+  display: flex;
+}
+
+.hero-left{
+  width: 50%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right{
+  width: 50%;
+  /* height: 100vh; */
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

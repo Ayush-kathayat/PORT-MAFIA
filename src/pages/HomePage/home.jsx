@@ -5,7 +5,16 @@ const Home = () => {
   return (
     <>
       <Nav />
-      <h1>HELLO I AM HOME PAGE</h1>
+
+      <div className="hero">
+        <div className="hero-left">
+          <h1>Hi There!</h1>
+          <p>I AM <span className="name">AYUSH KATHAYAT.</span></p>
+        </div>
+        <div className="hero-right">
+          <img src="/hero-img.svg" alt="hero" />
+        </div>
+      </div>
     </>
   );
 };

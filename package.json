@@ -15,7 +15,7 @@
     "react-awesome-reveal": "^4.2.7",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
-    "typeit-react": "^2.7.1"
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

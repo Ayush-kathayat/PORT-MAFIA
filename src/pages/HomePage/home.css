@@ -25,7 +25,7 @@
   font-size: var(--font-size-mammoth);
   font-weight: var(--font-weight-bold);
   margin-bottom: 1rem;
-  margin-right : 12rem;
+  margin-right : 25.3rem;
 }
 
 .hero-left p{
@@ -37,3 +37,4 @@
   font-weight: var(--font-weight-bolder);
   color : var(--accent);
 }
+

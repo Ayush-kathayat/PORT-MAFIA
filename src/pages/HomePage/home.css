@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top : 7rem;
 }
 
 .hero-right{
@@ -36,5 +37,40 @@
 .name{
   font-weight: var(--font-weight-bolder);
   color : var(--accent);
+}
+
+/* about-me section */
+
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.about-me h1 {
+  font-size: var(--font-size-mammoth);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 6rem;
+
+}
+.about-me h1 > span{
+  color: var(--accent);
+}
+
+.para{
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-thin);
+  margin-bottom: 5rem;
+  color : var(--text);
+}
+
+.about-me > .para > span{
+  font-size: var(--font-size-xlarge);
+  font-weight: var(--font-weight-thin);
+  color : var(--accent);
+  text-transform: uppercase;
 }
 

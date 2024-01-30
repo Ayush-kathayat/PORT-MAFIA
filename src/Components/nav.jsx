@@ -3,13 +3,28 @@ import { useState } from "react";
 import "./nav.css";
 const Nav = () => {
   const [showMobMenu, setShowMobMenu] = useState(false);
+  const [navColor, updateNavbar] = useState(false);
+
+  function scrollHandler() {
+    if (window.scrollY >= 15) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
+  }
+
+  window.addEventListener("scroll", scrollHandler);
 
   // const gitProfile = () => {
   //   window.location.href = "https://github.com/Ayush-kathayat";
   // };
+
   return (
     <>
-      <nav className={showMobMenu ? "active navbar" : "navbar"}>
+      <nav
+        className={showMobMenu ? "active navbar" : "navbar"}
+        id={navColor ? "blurry" : "trans"}
+      >
         <Link className="logo" to="/">
           <h1 className="navbar__logo">AK.</h1>
         </Link>

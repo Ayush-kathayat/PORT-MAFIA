@@ -74,3 +74,52 @@
   text-transform: uppercase;
 }
 
+/* find me section */
+
+.find-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.find-me p{
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-thin);
+  margin-top: 1rem;
+  color : var(--text);
+}
+
+.find-me-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top :  1rem;
+  margin-bottom: 5rem;
+  margin-left: 3rem;
+  height: 5rem;
+  width: 30rem;
+
+
+}
+
+.find-me-links > a{
+  height : 2rem;
+  width : 2rem;
+  border-radius: 50%;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  background-color: var(--accent);
+  transition: all 0.3s ease-in-out;
+}
+
+.find-me-links > a:hover{
+  /* box-shadow: 0 0 15px var(--text); */
+  transition: all 0.3s ease-in-out;
+  scale : 1.2;
+
+}
+

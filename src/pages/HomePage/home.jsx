@@ -7,8 +7,10 @@ const Home = () => {
 
   return (
     <>
+      {/* navbar */}
       <Nav />
 
+      {/* hero section */}
       <div className="hero">
         <div className="hero-left">
           <h1>Hi There!</h1>
@@ -18,13 +20,13 @@ const Home = () => {
 
           <AnimatedText texts={texts} />
         </div>
+
         <div className="hero-right">
           <img src="/hero-img.svg" alt="hero" />
         </div>
       </div>
 
       {/* about me section */}
-
       <div className="about-me">
         <h1>
           LET ME <span>INTRODUCE</span> MYSELF
@@ -73,7 +75,6 @@ const Home = () => {
       </div>
 
       {/* footer section */}
-
       <footer className="footer">
         <p>Designed and Developed by Ayush Kathayat</p>
         <p>Copyright © 2024 AK.</p>

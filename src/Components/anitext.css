@@ -50,3 +50,12 @@
   80% { opacity: 0; }
   100% { opacity: 0; }
 }
+
+
+@media (max-width : 630px){
+
+  .animated-item{
+    font-size: var(--font-size-xlarge);
+    text-align: left;
+  }
+}

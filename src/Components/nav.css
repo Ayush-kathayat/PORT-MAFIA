@@ -71,11 +71,7 @@
   cursor: pointer;
 }
 
-.feather-github:hover{
-  fill :  var(--accent);
-  color : var(--accent);
-  transition: fill 0.25s ease-in-out;
-}
+
 
 .mobile-navbar-btn {
   display: none;

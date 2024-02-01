@@ -87,7 +87,9 @@ const Nav = () => {
 
         <div
           className="mobile-navbar-btn"
-          onClick={() => setShowMobMenu(!showMobMenu)}
+          onClick={() => {
+            setShowMobMenu(!showMobMenu);
+          }}
         >
           <svg
             className="open-menu"

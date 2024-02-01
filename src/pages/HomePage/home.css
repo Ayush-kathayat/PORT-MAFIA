@@ -172,79 +172,73 @@ responsiveness */
   .hero-right {
     margin-bottom: 5rem;
   }
-
 }
 
-
-@media (max-width : 900px){
-
-  .about-me > h1{
+@media (max-width: 950px) {
+  .about-me > h1 {
     font-size: var(--font-size-xhuge);
   }
 
-  .about-me > .para{
+  .about-me > .para {
     font-size: var(--font-size-xlarge);
-    margin : 1.5rem;
+    margin: 1.5rem;
   }
 
-  .footer{
+  .footer {
     flex-direction: column;
     height: 10rem;
   }
-
 }
 
-@media (max-width : 630px){
-
-  .hero-left > h1{
+@media (max-width: 630px) {
+  .hero-left > h1 {
     font-size: var(--font-size-xhuge);
     margin-right: 0;
   }
 
-  .hero-left > p{
+  .hero-left > p {
     font-size: var(--font-size-xlarge);
     margin-right: 0;
   }
 
-
-  .about-me > h1{
-    margin-top : 0rem;
+  .about-me > h1 {
+    margin-top: 0rem;
     font-size: var(--font-size-xlarge);
   }
 
-  .about-me > .para{
+  .about-me > .para {
     font-size: var(--font-size-large);
-    margin : 1rem;
+    margin: 1rem;
   }
 
-  .about-me > .para > span{
+  .about-me > .para > span {
     font-size: var(--font-size-medium);
     text-transform: none;
   }
 
-  .hero-right{
+  .hero-right {
     display: none;
   }
 
-  .find-me > h1{
+  .find-me > h1 {
     font-size: var(--font-size-xlarge);
   }
 
-  .find-me > p{
+  .find-me > p {
     font-size: var(--font-size-medium);
   }
 
-  .find-me-links > a{
+  .find-me-links > a {
     height: 1.5rem;
     width: 1.5rem;
   }
 
-  .find-me-links > a > img{
+  .find-me-links > a > img {
     height: 1rem;
     width: 1rem;
   }
 
-  .footer > p{
+  .footer > p {
     font-size: var(--font-size-small);
   }
 }

@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <>
       {/* navbar */}
+
       <Nav />
 
       {/* hero section */}

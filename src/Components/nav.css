@@ -91,11 +91,20 @@
 @media (max-width: 950px) {
 
   .navbar{
-    position: relative;
+    /* position: ; */
     height:  5rem;
     transition: 0.5s ease-in-out;
-
   }
+
+  #blurry{
+    background-color: rgba(38, 37, 39, 0.9);  /* 50% transparent */
+  }
+  
+  #trans {
+    background-color: rgba(38, 37, 39, 0.9);  /* 50% transparent */
+   }
+   
+
 
   .mobile-navbar-btn{
     display: block;

@@ -1,15 +1,30 @@
+import Nav from "../../Components/nav";
+
 import "./about.css";
 
-
 const About = () => {
-
   return (
     <>
-    <h1>HELLO I AM About Page </h1>
+      <Nav />
+
+      <div className="about-me">
+        <div className="about-me-left">
+          <h1>
+            Know who <span>I'M</span>
+          </h1>
+          <p>
+            Hey everyone! I am <span>Ayush Kathayat</span> from{" "}
+            <span>Haldwani, India</span>. Currently pursuing a BE in CSE at
+            Chandigarh University. Eager to dive into the world of software
+            development and explore its endless possibilities.{" "}
+          </p>
+        </div>
+        <div className="about-me right">
+          
+        </div>
+      </div>
     </>
   );
 };
 
-
 export default About;
-

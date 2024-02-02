@@ -1,0 +1,14 @@
+.about-me{
+  display: flex;
+
+}
+
+.about-me-left{
+  width: 50%;
+  padding: 0 20px;
+}
+
+.about-me-right{
+  width: 50%;
+  padding: 0 20px;
+}

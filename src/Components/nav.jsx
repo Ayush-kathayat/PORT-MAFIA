@@ -6,7 +6,7 @@ const Nav = () => {
   const [navColor, updateNavbar] = useState(false);
 
   function scrollHandler() {
-    if (window.scrollY >= 15) {
+    if (window.scrollY >= 5) {
       updateNavbar(true);
     } else {
       updateNavbar(false);

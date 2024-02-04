@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-me">
         <div className="about-me-left">
           <h1>
-            Know who <span>I'M</span>
+            Know who <span>I AM</span>
           </h1>
           <p>
             Hey everyone! I am <span>Ayush Kathayat</span> from{" "}
@@ -19,8 +19,9 @@ const About = () => {
             development and explore its endless possibilities.{" "}
           </p>
         </div>
-        <div className="about-me right">
-          
+        <div className="about-me-right">
+          <img src="/about.svg" alt="about" />
+       
         </div>
       </div>
     </>

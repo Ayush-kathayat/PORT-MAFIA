@@ -1,4 +1,5 @@
 import Nav from "../../Components/nav";
+import Footer from "../../Components/footer";
 
 import "./about.css";
 
@@ -21,9 +22,12 @@ const About = () => {
         </div>
         <div className="about-me-right">
           <img src="/about.svg" alt="about" />
-       
         </div>
       </div>
+
+      {/* <Footer /> */}
+
+      
     </>
   );
 };

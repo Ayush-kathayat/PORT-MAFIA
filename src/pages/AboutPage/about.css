@@ -1,12 +1,32 @@
 .about-me{
   display: flex;
-  
-
+  flex-direction: row;
+  margin-top : 8.5rem;
 }
 
 .about-me-left{
-  width: 50%;
+  width: 80%;
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-left h1{
+  font-size: var(--font-size-xmammoth);
+  margin-bottom: 2rem;
+}
+
+.about-me-left p{
+  font-size: var(--font-size-xlarge);
+  width: 70%;
+  margin-bottom: 20px;
+} 
+
+.about-me-left p > span{
+  font-weight: var(--font-weight-bold);
+  color : var(--accent);
 }
 
 .about-me-right{

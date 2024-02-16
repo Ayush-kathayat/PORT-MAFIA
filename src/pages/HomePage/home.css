@@ -41,7 +41,7 @@
 
 /* about-me section */
 
-.about-me {
+.about-mee {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,12 +49,12 @@
   margin-top: 5rem;
 }
 
-.about-me h1 {
+.about-mee h1 {
   font-size: var(--font-size-mammoth);
   font-weight: var(--font-weight-bold);
   margin-bottom: 6rem;
 }
-.about-me h1 > span {
+.about-mee h1 > span {
   color: var(--accent);
 }
 
@@ -65,7 +65,7 @@
   color: var(--text);
 }
 
-.about-me > .para > span {
+.about-mee > .para > span {
   font-size: var(--font-size-xlarge);
   font-weight: var(--font-weight-thin);
   color: var(--accent);
@@ -125,7 +125,7 @@
   flex-wrap: wrap;
   background-color: var(--secondary);
   padding: 0.5rem 0;
-  /* margin-bottom: 5rem; */
+  
 }
 
 .footer-links {
@@ -175,11 +175,11 @@ responsiveness */
 }
 
 @media (max-width: 950px) {
-  .about-me > h1 {
+  .about-mee > h1 {
     font-size: var(--font-size-xhuge);
   }
 
-  .about-me > .para {
+  .about-mee > .para {
     font-size: var(--font-size-xlarge);
     margin: 1.5rem;
   }
@@ -201,17 +201,17 @@ responsiveness */
     margin-right: 0;
   }
 
-  .about-me > h1 {
+  .about-mee > h1 {
     margin-top: 0rem;
     font-size: var(--font-size-xlarge);
   }
 
-  .about-me > .para {
+  .about-mee > .para {
     font-size: var(--font-size-large);
     margin: 1rem;
   }
 
-  .about-me > .para > span {
+  .about-mee > .para > span {
     font-size: var(--font-size-medium);
     text-transform: none;
   }

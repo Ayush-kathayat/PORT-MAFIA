@@ -1,5 +1,5 @@
 import Nav from "../../Components/nav";
-// import Footer from "../../Components/footer";
+import Footer from "../../Components/footer";
 
 import "./about.css";
 
@@ -32,8 +32,6 @@ const About = () => {
         </h1>
 
         <div className="rows-wrapper">
-
-          
           <div className="row">
             <div className="tech-icons-wrapper">
               <svg
@@ -229,12 +227,39 @@ const About = () => {
               </svg>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div className="tools-used">
+        <h1>
+          <span>Tools</span> I Used
+        </h1>
+
+        <div className="tool-row">
+          <div className="tool-icon-wrapper">
+            <img src="/ubuntu-white.svg" alt="github" />
+          </div>
+
+          <div className="tool-icon-wrapper">
+            <img src="/vscode.svg" alt="github" />
+          </div>
+          
+          <div className="tool-icon-wrapper">
+            <img src="/post.svg" alt="github" />
+          </div>
+
+          <div className="tool-icon-wrapper">
+            <img src="/vercel.svg" alt="github" />
+          </div>
+
+          <div className="tool-icon-wrapper">
+            <img src="/netlify.svg" alt="github" />
+          </div>
 
         </div>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

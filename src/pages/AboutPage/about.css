@@ -1,10 +1,10 @@
-.about-me{
+.about-me {
   display: flex;
   flex-direction: row;
-  margin-top : 8.5rem;
+  margin-top: 8.5rem;
 }
 
-.about-me-left{
+.about-me-left {
   width: 80%;
   padding: 0 20px;
   display: flex;
@@ -13,23 +13,72 @@
   align-items: center;
 }
 
-.about-me-left h1{
+.about-me-left h1 {
   font-size: var(--font-size-xmammoth);
   margin-bottom: 2rem;
 }
 
-.about-me-left p{
+.about-me-left p {
   font-size: var(--font-size-xlarge);
   width: 70%;
   margin-bottom: 20px;
-} 
-
-.about-me-left p > span{
-  font-weight: var(--font-weight-bold);
-  color : var(--accent);
 }
 
-.about-me-right{
+.about-me-left p > span {
+  font-weight: var(--font-weight-bold);
+  color: var(--accent);
+}
+
+.about-me-right {
   width: 50%;
   padding: 0 20px;
+}
+
+/* 
+skill-section */
+
+.about-skills > h1 {
+  font-size: var(--font-size-xmammoth);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-skills > h1 > span {
+  color: var(--accent);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2rem;
+}
+
+.rows-wrapper {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 8rem;
+}
+
+.tech-icons-wrapper {
+  opacity: 0.563;
+  border: 1.7px solid var(--accent);
+  border-radius: 5px;
+  box-shadow: 4px 5px 4px 3px rgba(133, 168, 4, 0.137);
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+}
+
+.tech-icons-wrapper:hover {
+  box-shadow: 4px 5px 4px 3px rgba(222, 230, 115, 0.137);
+  opacity: 1;
+}
+
+.tech-icon {
+  width: 100px;
+  height: 100px;
+  margin: 30px 30px;
+  transition: all 0.3s ease;
 }

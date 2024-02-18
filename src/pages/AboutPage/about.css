@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin-left : 15rem; */
 }
 
 .about-me-left h1 {
@@ -30,12 +31,18 @@
 }
 
 .about-me-right {
-  width: 50%;
-  padding: 0 20px;
+  width: 40%;
 }
 
 /* 
 skill-section */
+
+.about-skills {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .about-skills > h1 {
   font-size: var(--font-size-xmammoth);
@@ -50,7 +57,7 @@ skill-section */
 }
 
 .rows-wrapper {
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -59,16 +66,17 @@ skill-section */
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-bottom: 4rem;
 }
 
-.tech-icons-wrapper  , .tool-icon-wrapper{
+.tech-icons-wrapper,
+.tool-icon-wrapper {
   opacity: 0.763;
   border: 1.7px solid var(--accent);
   border-radius: 5px;
   box-shadow: 4px 5px 4px 3px rgba(133, 168, 4, 0.137);
   overflow: hidden;
   transition: all 0.4s ease 0s;
+  margin: 4rem;
 }
 
 .tech-icons-wrapper:hover {
@@ -83,13 +91,13 @@ skill-section */
   transition: all 0.3s ease;
 }
 
-.tools-used > h1{
+.tools-used > h1 {
   text-align: center;
-  font-size : var(--font-size-xmammoth);
+  font-size: var(--font-size-xmammoth);
 }
 
 .tools-used > h1 > span {
-  color : var(--accent);
+  color: var(--accent);
   font-weight: var(--font-weight-bolder);
 }
 
@@ -100,15 +108,61 @@ skill-section */
   transition: all 0.3s ease;
 }
 
-.tool-row{
-  display : flex;
+.tool-row {
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top : 5rem;
-  margin-bottom : 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  flex-wrap: wrap;
 }
 
 .tool-icon-wrapper:hover {
   box-shadow: 4px 5px 4px 3px rgba(222, 230, 115, 0.137);
   opacity: 1;
+}
+
+@media (max-width: 952px) {
+  .about-me-left > h1 {
+    font-size: var(--font-size-huge);
+  }
+
+  .about-me-left > p {
+    font-size: var(--font-size-large);
+  }
+}
+
+@media (max-width: 700px) {
+  .about-skills > h1 {
+    font-size: var(--font-size-xhuge);
+  }
+
+  .tools-used > h1 {
+    font-size: var(--font-size-xhuge);
+  }
+  .about-me-right {
+    display: none;
+  }
+
+  .about-me-left {
+    width: 100%;
+    /* align-items: center;
+    margin  : 5rem; */
+  }
+
+  .tool-icon-wrapper > img,
+  .tech-icons-wrapper > svg {
+    margin-bottom: 2rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .tech-icons-wrapper,
+.tool-icon-wrapper {
+  margin: 2rem;
+}
+
+  .about-me-left p {
+    width: 100%;
+  }
 }

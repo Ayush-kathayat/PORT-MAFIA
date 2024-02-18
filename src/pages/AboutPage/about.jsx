@@ -32,6 +32,7 @@ const About = () => {
         </h1>
 
         <div className="rows-wrapper">
+
           <div className="row">
             <div className="tech-icons-wrapper">
               <svg
@@ -110,6 +111,7 @@ const About = () => {
           </div>
 
           <div className="row">
+            
             <div className="tech-icons-wrapper">
               <svg
                 stroke="currentColor"

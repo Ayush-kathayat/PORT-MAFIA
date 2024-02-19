@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import pdf from "/resume.pdf";
 import "./nav.css";
 const Nav = () => {
   const [showMobMenu, setShowMobMenu] = useState(false);
@@ -61,10 +62,14 @@ const Nav = () => {
           <li className="links__item-wrapper">
             {/* <img src="/file-text.svg" alt="Resume" /> */}
             <div className="main-link">
-              <span className="links__item">Resume</span>
-              <Link className="l2" to="/resume">
+              <a
+                className="resume-btn"
+                href={pdf}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Resume
-              </Link>
+              </a>
             </div>
           </li>
           {/* <li className="git-icon" onClick={gitProfile}>

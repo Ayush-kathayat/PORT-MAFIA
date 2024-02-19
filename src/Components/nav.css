@@ -1,12 +1,10 @@
-
-#blurry{
-  background-color: rgba(38, 37, 39, 0.6);  /* 50% transparent */
+#blurry {
+  background-color: rgba(38, 37, 39, 0.6); /* 50% transparent */
 }
 
 #trans {
   background-color: transparent;
- }
- 
+}
 
 .navbar {
   display: flex;
@@ -17,8 +15,8 @@
   width: 100%;
 }
 
-.logo{
-  color : var(--accent);
+.logo {
+  color: var(--accent);
   font-size: var(--font-size-large);
   font-weight: var(--font-weight-bold);
   text-decoration: none;
@@ -31,8 +29,8 @@
   flex-wrap: wrap;
   font-size: var(--font-size-large);
   font-weight: var(--font-weight-bold);
-  transition : 0.5s ease-in-out;
-  margin-left : 15rem;
+  transition: 0.5s ease-in-out;
+  margin-left: 15rem;
 }
 
 .main-link {
@@ -64,14 +62,11 @@
   transform: translateY(-8px);
 }
 
-
-.git-icon{
+.git-icon {
   margin-top: 0.3rem;
   margin-left: 0.5rem;
   cursor: pointer;
 }
-
-
 
 .mobile-navbar-btn {
   display: none;
@@ -87,34 +82,30 @@
   display: block;
 }
 
-
 @media (max-width: 950px) {
-
-  .navbar{
+  .navbar {
     /* position: ; */
-    height:  5rem;
+    height: 5rem;
     transition: 0.5s ease-in-out;
   }
 
-  #blurry{
-    background-color: rgba(38, 37, 39, 0.9);  /* 50% transparent */
+  #blurry {
+    background-color: rgba(38, 37, 39, 0.9); /* 50% transparent */
   }
-  
+
   #trans {
-    background-color: rgba(38, 37, 39, 0.9);  /* 50% transparent */
-   }
-   
+    background-color: rgba(38, 37, 39, 0.9); /* 50% transparent */
+  }
 
-
-  .mobile-navbar-btn{
+  .mobile-navbar-btn {
     display: block;
   }
 
-  .links{
+  .links {
     display: none;
     /* position: absolute;
     bottom: 5rem; */
-    transition : 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
     /* opacity: 0; */
   }
 
@@ -135,7 +126,6 @@
     width: 100%;
     background-color: var(--secondary);
     transition: 0.5s ease-in-out;
-
   }
 
   .mobile-navbar-btn {
@@ -146,7 +136,7 @@
     margin: 1rem;
   }
 
-  .navbar__logo{
+  .navbar__logo {
     display: block;
     position: absolute;
     top: 0;
@@ -154,7 +144,7 @@
     margin: 1rem;
   }
 
-  .active > .links{
+  .active > .links {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -162,10 +152,28 @@
     width: 100%;
     height: 100%;
     margin-top: 1rem;
-    transition: 0.5s ease-in-out; 
+    transition: 0.5s ease-in-out;
     margin-right: 20rem;
     padding: 5rem;
   }
-  
 }
 
+.resume-btn {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  margin-top: 0.2rem;
+  border-radius: 0.25rem;
+  font-weight: var(--font-weight-bold);
+  transition: 0.5s ease-in-out;
+  outline: none;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-size: var(--font-size-large);
+  text-decoration: none;
+}
+
+.resume-btn:hover {
+  background-color: var(--secondary);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}

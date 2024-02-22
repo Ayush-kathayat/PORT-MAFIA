@@ -1,9 +1,12 @@
-import "./project.css";
+import Nav from "../../Components/nav";
 
+
+import "./project.css";
 const Project = () => {
   return (
     <>
-      <h1>HELLO I AM PROJECT PAGE</h1>
+      <Nav />
+      
     </>
   );
 };

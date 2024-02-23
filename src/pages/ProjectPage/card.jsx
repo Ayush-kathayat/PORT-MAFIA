@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import './card.css';
+import PropTypes from "prop-types";
+import "./card.css";
 
 // Card component
 const Card = ({ image, title, paragraph, githubLink, demoLink }) => {
@@ -8,8 +8,26 @@ const Card = ({ image, title, paragraph, githubLink, demoLink }) => {
       <img src={image} alt={title} />
       <h3>{title}</h3>
       <p>{paragraph}</p>
-      {githubLink && <a href={githubLink} className="button">View on GitHub</a>}
-      {demoLink && <a href={demoLink} className="button">Demo</a>}
+      <div className="card-buttons">
+        {githubLink && (
+          <a href={githubLink} className="card-btn -solid -accent">
+            <span className="btn__text">Github</span>
+            <div className="btn__stroke">
+              <i className="h"></i>
+              <i className="v"></i>
+            </div>
+          </a>
+        )}
+        {demoLink && (
+          <a href={demoLink} className="card-btn -solid -accent">
+            <span className="btn__text">Demo</span>
+            <div className="btn__stroke">
+              <i className="h"></i>
+              <i className="v"></i>
+            </div>
+          </a>
+        )}
+      </div>
     </div>
   );
 };

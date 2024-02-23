@@ -1,0 +1,144 @@
+.card {
+  display: flex;
+  color: var(--background);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.card > p {
+  margin: 2rem;
+  font-size: var(--font-size-normal);
+}
+
+/* buttons style */
+
+.card-btn {
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 0;
+  font-size: 16px;
+  padding: 12px 28px 13px;
+  line-height: inherit;
+  border-radius: 0;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  transition: color 72ms ease 100ms;
+}
+
+.card-btn.-solid.-accent {
+  color: #262626;
+}
+
+.card-btn:hover.-solid.-accent {
+  color: #f1c40f;
+}
+
+.btn__text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.btn__stroke {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: block;
+}
+
+.card-btn.-solid.-accent .btn__stroke {
+  box-shadow: inset 0 0 0 1px #f1c40f;
+}
+
+.btn__stroke i {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.card-btn.-solid .btn__stroke i:after,
+.card-btn.-solid .btn__stroke i:before {
+  display: none;
+}
+
+.card-btn.-solid .btn__stroke i.v {
+  bottom: 0;
+  left: 0;
+  transform-origin: left bottom;
+  width: 200%;
+  height: 200%;
+  transition: transform 360ms ease;
+}
+.card-btn.-solid.-accent .btn__stroke i.v {
+  background-color: #f1c40f;
+}
+
+.btn__stroke i:before,
+.btn__stroke i:after {
+  content: "";
+  position: absolute;
+  display: block;
+  transition: transform 600ms ease;
+}
+
+.btn__stroke i:before.-solid.-accent,
+.btn__stroke i:after.-solid.-accent {
+  background-color: #f1c40f;
+  color: #0a0a0a;
+}
+
+.card-btn.-accent .btn__stroke i:before,
+.card-btn.-accent .btn__stroke i:after {
+  background-color: #f1c40f;
+}
+
+.btn__stroke i.v:before,
+.btn__stroke i.v:after {
+  width: 1px;
+  height: 100%;
+  top: 0;
+}
+.btn__stroke i.v:before {
+  left: 0;
+  transform: translate(0%, -101%);
+}
+.btn__stroke i.v:after {
+  right: 0;
+  transform: translate(0%, 101%);
+}
+.btn__stroke i.h:before,
+.btn__stroke i.h:after {
+  height: 1px;
+  width: 100%;
+  left: 0;
+}
+.btn__stroke i.h:before {
+  top: 0;
+  transform: translate(101%, 0px);
+}
+.btn__stroke i.h:after {
+  bottom: 0;
+  transform: translate(-101%, 0px);
+}
+.card-btn.-solid:hover .btn__stroke i.v {
+  transform: rotate(-15deg) translate(-50%, -50%);
+}

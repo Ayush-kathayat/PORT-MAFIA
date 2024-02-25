@@ -1,21 +1,13 @@
-.card {
-  display: flex;
-  color: var(--background);
-}
+
+
+/* buttons style */
 
 .card-buttons {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 8rem;
+  
 }
-
-.card > p {
-  margin: 2rem;
-  font-size: var(--font-size-normal);
-}
-
-/* buttons style */
 
 .card-btn {
   display: inline-block;

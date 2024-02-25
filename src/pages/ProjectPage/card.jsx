@@ -5,8 +5,9 @@ import "./card.css";
 const Card = ({ image, title, paragraph, githubLink, demoLink }) => {
   return (
     <div className="card">
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
+      {image && <img src={image} alt={title} />}
+
+      <h2>{title}</h2>
       <p>{paragraph}</p>
       <div className="card-buttons">
         {githubLink && (
